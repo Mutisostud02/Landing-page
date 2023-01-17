@@ -1,7 +1,11 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
 body{
     display:flex;
     flex-direction: column;
-    just: center;
+    justify-content: center;
     height:100%;
     width:auto;
     margin:0;
@@ -13,6 +17,7 @@ body{
     height:500px;
     display:flex;
     flex-direction: column;
+    
 }
 .top-head{
     display:flex;
@@ -25,23 +30,28 @@ body{
     color:white;
     font-weight: bold;
 }
-.head-empty{
 
-}
 .head-links{
     display:flex;
+    margin-right: 10px;
 }
 ul{
     display:flex;
     justify-content:flex-end;
     gap:20px;
+   
 }
 li{
     list-style-type: none;
 }
 li a{
+    text-decoration: none;
+    list-style-type: none;
     font-size: 25px;
-    color:rgba(255, 255, 255, 0.767);
+    color:rgba(253, 253, 253, 0.767);
+}
+li a:hover{
+    background-color: rgb(173, 173, 224);
 }
 .bottom-head{
     margin-left:20%;
@@ -71,9 +81,13 @@ button{
     width:100px;
     height:40px;
     font-size:20px;
-    background-color:rgba(43, 145, 241,0.4);
+    background-color:rgba(143, 255, 167, 0.4);
     box-shadow: 5, 5, 5px, 5px;
     border-radius:5px;
+}
+i{
+    width:20px;
+    height:20px;
 }
 button:hover{
     background-color:aqua;
@@ -90,12 +104,13 @@ button:active{
 .info-advert{
     flex:1 1 auto;
     background-color:rgba(255, 255, 255, 0.973);
-    height:500px;
+    height:630px;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
     align-items:center;
     margin-left:17%;
+    flex-wrap: wrap;
 }
 .info{
     height:300px;
@@ -106,7 +121,7 @@ button:active{
 }
 .box img{
     height:150px;
-    width:150px;
+    width:250px;
     padding:auto;
     margin:10px 40px auto;
     
@@ -118,7 +133,7 @@ button:active{
     height:60px;
     margin-left:40px;
     margin-right:40px;
-    width:150px;
+    width:250px;
     color:rgba(20, 20, 19, 0.5);
     font-family:Tahoma, monospace;
     font-size:20px;
@@ -182,6 +197,13 @@ span{
     flex:1 1 auto;
     padding:auto;
     margin:auto 0 auto 200px;
+}
+.linked-sign button{
+width:130px;
+}
+.linked-sign button a{
+    list-style-type: none;
+    text-decoration: none;
 }
 .signed:hover{
     background-color: rgb(42, 235, 170);
