@@ -4,19 +4,21 @@
 }
 body{
     display:flex;
+    flex:1 1 0;
     flex-direction: column;
     justify-content: center;
-    height:100%;
-    width:auto;
+    height:auto;
+    width:100vw;
     margin:0;
 }
 .head{
     
-    flex:1 1 auto;
+    flex:1 1 0;
     background-color: rgb(8, 12, 32);
     height:500px;
     display:flex;
     flex-direction: column;
+    margin-bottom: 10px;
     
 }
 .top-head{
@@ -56,12 +58,13 @@ li a:hover{
 .bottom-head{
     margin-left:10%;
     display:flex;
+    margin-bottom: 10px;
     
 }
 .left-bothead{
     display: flex;
     flex-direction: column;
-    flex:1 1 auto;
+    flex:1 1 0;
     width:200px;
     
 }
@@ -96,25 +99,26 @@ button:active{
     background-color:rgba(0, 255, 255,0.5);
 }
 .right-bothead{
-    flex:1 1 auto;
+    flex:1 1 0;
     width:300px;
     overflow:hidden;
 }
 
 .info-advert{
-    flex:1 1 auto;
+    flex:1 1 0;
     background-color:rgba(255, 255, 255, 0.973);
-    height:630px;
+    height:730px;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
     align-items:center;
     margin-left:10%;
+    margin-top:10px;
     flex-wrap: wrap;
 }
 .info{
     height:300px;
-    flex:1;
+    flex:1 1 0;
     display:flex;
     flex-direction: column;    
    
@@ -140,7 +144,7 @@ button:active{
     font-weight:bold;
 }
 .three{
-    flex:1 1 auto;
+    flex:1 1 0;
     background-color:hsl(0, 0%, 90%);
     height:350px;
     display:flex;
@@ -159,7 +163,7 @@ span{
     text-align: end;
 }
 .four{
-    flex:1 1 auto;
+    flex:1 1 0;
     background-color:white;
     height:380px;
 }
@@ -174,12 +178,12 @@ span{
 }
 .linked-text{
     width:300px;
-    flex:1;
+    flex:1 1 0;
     display:flex;
     flex-direction:column;
 }
 .p1,.p2{
-    flex:1;
+    flex:1 1 0;
     margin:30px 30px 10px;
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -194,7 +198,7 @@ span{
     font-size:25px;
 }
 .linked-sign{
-    flex:1 1 auto;
+    flex:1 1 0;
     padding:auto;
     margin:auto 0 auto 200px;
 }
@@ -209,7 +213,7 @@ width:130px;
     background-color: rgb(42, 235, 170);
 }
 .five{
-    flex:1 1 auto;
+    flex:1 1 0;
     background-color:rgb(37, 73, 73);
     height:80px;
 }
@@ -219,4 +223,6 @@ footer{
     padding:auto;
     color: white;
 }
-
+img{
+    border-radius: 10px;
+}
