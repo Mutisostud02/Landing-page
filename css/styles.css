@@ -1,6 +1,9 @@
 *,*::after,*::before{
     box-sizing: border-box;
     margin: 0;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 body{
     display:flex;
