@@ -23,6 +23,7 @@ body{
     font-size: 25px;
     width:100%;
     margin:10px 10px 10px;
+    padding-right:9%;
 }
 img{
     width:100vw;
@@ -37,9 +38,7 @@ img{
 }
 nav{
     margin-left:0;
-    justify-content: left;
-    align-items: left;
-    align-content: left;
+    
     align-self: flex-start;
 }
 ul{
@@ -64,15 +63,28 @@ li{
     color:aqua;
     justify-content:space-evenly;
     align-items: space-evenly;
+    cursor:pointer;
+}
+nav ul li a:hover{
+    color:brown;
 }
 .bottom-bothead{
-    margin:0;
-    padding-left:10px;
+    display:flex;
+    flex-direction: column;
+   
+}
+.right-bottom{
+    margin-bottom:0;
+}
+.left-bothead{
+    margin-top:0;
     background: linear-gradient(rgb(33, 33, 58),rgb(30, 200, 200)) ;
+
 }
 .bottom-bothead h2{
-    color:rgb(184, 202, 196);
+    color:rgb(161, 215, 240);
     font-size: 20px;
+    padding:20px;
 }
 .info-advert{
     
@@ -136,6 +148,10 @@ i{
     color:white;
     font-size: 20px;
 }
+.linked-sign button{
+    margin-left: 17%;
+    border-radius: 5px;
+}
 .five{
     height:40px;
     padding:10%;
@@ -143,4 +159,5 @@ i{
 }
 footer{
     font-size: 20px;
+    
 }
