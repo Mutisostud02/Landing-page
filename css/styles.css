@@ -28,6 +28,7 @@ body{
     width:100%;
     margin:10px 10px 10px;
     padding-right:9%;
+    margin-bottom:50px;
 }
 
 img{
@@ -101,7 +102,7 @@ nav ul li a:hover{
 }
 .info-advert{
     
-    padding:10px 20px 10px;
+    padding:20px 20px 10px;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -144,7 +145,7 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     gap:10px;
-    padding: 15px;
+    padding: 25px;
     color:rgb(0, 0, 0);
     
     
