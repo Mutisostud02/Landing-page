@@ -1,8 +1,8 @@
 *,*::after,*::before{
     box-sizing: border-box;
-    margin: 0;
-   
+    margin: 0;   
 }
+
 body{
     display:flex;
     flex:1 1 0;
@@ -12,6 +12,7 @@ body{
     width:auto;
     margin:0;
 }
+
 .head{
     
     flex:1 1 0;
