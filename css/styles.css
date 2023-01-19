@@ -129,9 +129,10 @@ nav ul li a:hover{
  
 }
 .three{
-    padding:30px;
+    padding:50px;
     background: linear-gradient(rgb(131, 165, 165),rgb(75, 110, 110));
     color:white;
+    height:300px;
 }
 .linked{
     display:flex;
@@ -140,7 +141,12 @@ nav ul li a:hover{
     background-color: rgb(39, 111, 114);
    
 
+} 
+
+a{
+    text-decoration: none;
 }
+
 .linked-text{
     display: flex;
     flex-direction: column;
